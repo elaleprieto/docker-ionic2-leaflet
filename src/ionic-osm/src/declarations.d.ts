@@ -12,3 +12,9 @@
   https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html
 */
 declare module '*';
+
+declare namespace L {
+  namespace tileLayer {
+        export function provider(name: string): TileLayer;
+    }
+}

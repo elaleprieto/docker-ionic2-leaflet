@@ -11,13 +11,15 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MapPage } from "../pages/map/map";
+import { MapLeaflet } from "../pages/map-leaflet/map-leaflet";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    MapPage
+    MapPage,
+    MapLeaflet
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { MapPage } from "../pages/map/map";
     MyApp,
     HomePage,
     ListPage,
-    MapPage
+    MapPage,
+    MapLeaflet
   ],
   providers: [
     Geolocation,
